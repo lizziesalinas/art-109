@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'myCustomFont';
+    src: url('assets/atari_font.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {padding: 50; margin: 50;
+   background-color: #000;
+}
+
+h1 {
+    color:rgb(0, 255, 0);
+     font-size: 20;
+     position: absolute;
+     left: 5px;
+     top: 25px;
+     font-family: 'myCustomFont';
+}
