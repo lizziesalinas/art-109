@@ -43,7 +43,7 @@ footer a:hover {
 
 /*Home-----------------------------------*/
 .home {
-    background: url(../images/bg.jpg) no-repeat;
+    background: url(../images/bg.JPG) no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,7 @@ footer a:hover {
 
 /*Resume-----------------------------------*/
 .resume header {
-    background: url(../images/bg2.jpg) center;
+    background: url(../images/bg2.JPG) center;
     background-size: cover;
     content: "";
     display: block;
