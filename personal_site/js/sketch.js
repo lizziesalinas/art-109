@@ -1,8 +1,20 @@
+let canvas;
+
 function setup() {
-    createCanvas(400,400);
-    background(255);
+    canvas = createCanvas(windowWidth, windowHeight);
+    canvas.position(0, 0);
+    canvas.style("z-index", "-1");
+    //background(255);
 }
 
-function draw(){
-ellipse(mousex,mousey,20,20)
+function windowResized() {
+    resizeCanvas(windowWidth, windowHeight);
+}
+
+function draw() {
+}
+
+function mouseMoved() {
+    fill(255, 30, 100);
+    ellipse(mouseX, mouseY, 20, 20);
 }
