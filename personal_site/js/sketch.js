@@ -2,8 +2,7 @@ let canvas;
 let bugImg;
 
 function preload() {
-  // Make sure this matches the path exactly
-  bugImg = loadImage('images/bug.png');
+  bugImg = loadImage('../images/bug.png');
 }
 
 function setup() {
@@ -17,7 +16,6 @@ function windowResized() {
 }
 
 function draw() {
-  // Optional: leave blank to preserve drawn images
 }
 
 function mouseMoved() {
