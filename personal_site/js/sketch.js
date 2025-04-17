@@ -15,5 +15,6 @@ function draw() {
 }
 
 function mouseMoved() {
-  ellipse(mouseX, mouseY, 20, 20);
+ellipse(mouseX, mouseY, 20, 20);
+fill(255, 0, 0, 150);
 }
