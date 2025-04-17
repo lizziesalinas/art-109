@@ -1,9 +1,5 @@
 let canvas;
-let bugImg;
 
-function preload() {
-  bugImg = loadImage('images/bug.png');
-}
 
 function setup() {
   canvas = createCanvas(windowWidth, windowHeight);
