@@ -22,6 +22,6 @@ function draw() {
 function mouseMoved() {
     fill(255, 30, 100);
     noStroke(); // Optional, removes border around fill
-    ellipse(mouseX, mouseY, 10, 10); // Show the fill color effect
+    // ellipse(mouseX, mouseY, 10, 10); // Show the fill color effect
     image(bugImg, mouseX, mouseY, 20, 20); // Use loaded image variable
 }
