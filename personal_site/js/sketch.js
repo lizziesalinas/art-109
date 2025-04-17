@@ -19,5 +19,5 @@ function draw() {
 }
 
 function mouseMoved() {
-  image(bugImg, mouseX, mouseY, 20, 20);
+  ellipse(mouseX, mouseY, 20, 20);
 }
