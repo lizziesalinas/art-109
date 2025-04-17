@@ -1,29 +1,25 @@
 let canvas;
 let bugImg;
 
-// function preload() {
-//     bugImg = loadImage('images/bug.png');
-// }
+function preload() {
+  // Make sure this matches the path exactly
+  bugImg = loadImage('images/bug.png');
+}
 
 function setup() {
-    canvas = createCanvas(windowWidth, windowHeight);
-    canvas.position(0, 0);
-    canvas.style("z-index", "-1");
-
-    bugImg = loadImage('images/bug.png');
+  canvas = createCanvas(windowWidth, windowHeight);
+  canvas.position(0, 0);
+  canvas.style("z-index", "-1");
 }
 
 function windowResized() {
-    resizeCanvas(windowWidth, windowHeight);
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 function draw() {
-    background(255);
-    if (bugImg) {
-        image(bugImg, mouseX, mouseY, 20, 20);
-    }
+  // Optional: leave blank to preserve drawn images
 }
 
-// function mouseMoved() {
-//     image(bugImg, mouseX, mouseY, 40, 40);
-// }
+function mouseMoved() {
+  image(bugImg, mouseX, mouseY, 20, 20);
+}
