@@ -2,7 +2,7 @@ let canvas;
 let bugImg;
 
 function preload() {
-    bugImg = loadImage('images/bug.png');
+    bugImg = loadImage('../images/bug.png');
 }
 
 function setup() {
