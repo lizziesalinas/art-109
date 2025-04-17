@@ -2,7 +2,7 @@ let canvas;
 let bugImg;
 
 function preload() {
-    bugImg = loadImage('../images/bug.png');
+    bugImg = loadImage('images/bug.png');
 }
 
 function setup() {
@@ -19,5 +19,5 @@ function draw() {
 }
 
 function mouseMoved() {
-    image(bugImg, mouseX, mouseY, 20, 20);
+    image(bugImg, mouseX, mouseY, 40, 40);
 }
