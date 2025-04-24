@@ -8,7 +8,6 @@
   <link rel="stylesheet" href="css/style.css">
 
   <!-- use an import map to link to the Three.js CDN -->
-
   <script type="importmap">
       {
         "imports": {
@@ -17,13 +16,9 @@
         }
       }
     </script>
-
-
   <!-- Link to your Javascript file as a type="module", this will execute the file after the HTML is loaded -->
   <script type="module" src="js/main.js"></script>
-
 </head>
-
 
 <body>
   <header>
@@ -31,16 +26,19 @@
         documentation</a></p>
     <p>Three.js library is imported via a <a
         href="https://threejs.org/docs/#manual/en/introduction/Installation">CDN</a></p>
-  </header>
+</header>
 
-  <body>
+
+
     <div id="three-container"></div>
-  
     <div class="content">
       <h1>My 3D Scene</h1>
+      <button id="play-button">Click to play music</button>
+  <audio id="song"src="media/birds.mp3"></audio>
+  <button id="pause-button">Click to pause</button>
+
     </div>
-  </body>
 
+    <script type="module" src="js/sound.js"></script>
 </body>
-
 </html>

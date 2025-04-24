@@ -22,3 +22,7 @@ canvas{
     color: white;
     padding: 2rem;
   }
+
+  #play-button {
+visibility: hidden;
+  }
