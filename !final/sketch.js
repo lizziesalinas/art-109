@@ -12,78 +12,27 @@ scene3YeaBtn, scene3NahBtn;
 
 // =============================================================
 function esScene1YesBtn() {
-   scene1YesBtn = createButton("Yes", 200, 20, 120, 40);
-    scene1YesBtn.strokeWeight   = 4;                          
-    scene1YesBtn.fillBg         = color(255, 204, 0);         
-    scene1YesBtn.fillBgHover    = color(255, 229, 102);       
-    scene1YesBtn.fillBgActive   = color(255, 170, 0);          
-    scene1YesBtn.strokeBg       = color(200, 100, 0);         
-    scene1YesBtn.fillLabel      = color(60, 30, 0);           
-    scene1YesBtn.font           = "Comic Sans MS";             
-    scene1YesBtn.textSize       = 24;                                     
+   scene1YesBtn = createButton("Of course", 1500, 250, 120, 40);                                 
 }
 
 function esScene1NoBtn() {
-  scene1NoBtn = createButton("No", 400, 20, 120, 40);
-    scene1NoBtn.rounding       = 12;                         
-    scene1NoBtn.strokeWeight   = 4;                          
-    scene1NoBtn.fillBg         = color(255, 204, 0);         
-    scene1NoBtn.fillBgHover    = color(255, 229, 102);       
-    scene1NoBtn.fillBgActive   = color(255, 170, 0);          
-    scene1NoBtn.strokeBg       = color(200, 100, 0);         
-    scene1NoBtn.fillLabel      = color(60, 30, 0);           
-    scene1NoBtn.font           = "Comic Sans MS";             
-    scene1NoBtn.textSize       = 24; 
+  scene1NoBtn = createButton("Not really", 1680, 250, 120, 40);
 }
 
 function esScene2RightBtn() {
-   scene2RightBtn = createButton("Right", 200, 120, 120, 40);
-    scene2RightBtn.strokeWeight   = 4;                          
-    scene2RightBtn.fillBg         = color(255, 204, 0);         
-    scene2RightBtn.fillBgHover    = color(255, 229, 102);       
-    scene2RightBtn.fillBgActive   = color(255, 170, 0);          
-    scene2RightBtn.strokeBg       = color(200, 100, 0);         
-    scene2RightBtn.fillLabel      = color(60, 30, 0);           
-    scene2RightBtn.font           = "Comic Sans MS";             
-    scene2RightBtn.textSize       = 24;                                   
+   scene2RightBtn = createButton("You're right", 175, 880, 120, 40);                              
 }
 
 function esScene2WrongBtn() {
-  scene2WrongBtn = createButton("Wrong", 400, 120, 120, 40);
-    scene2WrongBtn.rounding       = 12;                         
-    scene2WrongBtn.strokeWeight   = 4;                          
-    scene2WrongBtn.fillBg         = color(255, 204, 0);         
-    scene2WrongBtn.fillBgHover    = color(255, 229, 102);       
-    scene2WrongBtn.fillBgActive   = color(255, 170, 0);          
-    scene2WrongBtn.strokeBg       = color(200, 100, 0);         
-    scene2WrongBtn.fillLabel      = color(60, 30, 0);           
-    scene2WrongBtn.font           = "Comic Sans MS";             
-    scene2WrongBtn.textSize       = 24; 
+  scene2WrongBtn = createButton("I'm not", 345, 880, 120, 40);
 }
 
 function esScene3YeaBtn() {
-   scene3YeaBtn = createButton("Yea", 200, 220, 120, 40);
-    scene3YeaBtn.strokeWeight   = 4;
-    scene3YeaBtn.fillBg         = color(255, 204, 0);
-    scene3YeaBtn.fillBgHover    = color(255, 229, 102);
-    scene3YeaBtn.fillBgActive   = color(255, 170, 0);
-    scene3YeaBtn.strokeBg       = color(200, 100, 0);
-    scene3YeaBtn.fillLabel      = color(60, 30, 0);
-    scene3YeaBtn.font           = "Comic Sans MS";
-    scene3YeaBtn.textSize       = 24;
+   scene3YeaBtn = createButton("Yes", 1500, 900, 120, 40);
 }
 
 function esScene3NahBtn() {
-  scene3NahBtn = createButton("Nah", 400, 220, 120, 40);
-    scene3NahBtn.rounding       = 12;
-    scene3NahBtn.strokeWeight   = 4;
-    scene3NahBtn.fillBg         = color(255, 204, 0);
-    scene3NahBtn.fillBgHover    = color(255, 229, 102);
-    scene3NahBtn.fillBgActive   = color(255, 170, 0);
-    scene3NahBtn.strokeBg       = color(200, 100, 0);
-    scene3NahBtn.fillLabel      = color(60, 30, 0);
-    scene3NahBtn.font           = "Comic Sans MS";
-    scene3NahBtn.textSize       = 24;
+  scene3NahBtn = createButton("No", 1680, 900, 120, 40);
 }
 
 // =============================================================
